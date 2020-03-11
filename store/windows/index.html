@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows Estore</title>
     <link rel='stylesheet' href='../../style.css'>
+    <script>
+        function save1() {
+            document.cookie = "savedtocart=fnas";
+            alert("Wanna buy Fnas?");
+            window.location.href = "checkout/fnas";
+        }
+    </script>
     <header>
         <h1>Windows Estore&reg;</h1>
     </header>
 </head>
 <body>
-    
+    <div id='container3'>
+        <center>
+        <h1 style='font-size:50px; padding:56px; font-family:Source Code Pro;'>Featured:</h1>
+        <br>
+        <h1 style='font-family:Source Code Pro;'>Five Nights At Scaries</h1>
+        <br>
+        <p onclick='save1();' style='cursor:pointer;'>Add to cart</p>
+        </center>
+    </div>
 </body>
 </html>
