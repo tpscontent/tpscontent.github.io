@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+body {
+    color:white;
+    background:black;
+    font-family:Open Sans;
+}
+#name {
+    font-size:40px;
+}
+#headline {
+    text-align:center;
+    padding-top:100px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#startbrowsing {
+border:none;
+font-size:35px;
+background:transparent;
+color:white;
+font-family:Abel;
+}
+#browse {
+    text-align:center;
+}
+#browse h1 {
+    font-size:45px;
+}
+#divider {
+    padding:300px;
+}
+#browse #listitemhead {
+    font-size:29.6px;
+}
+#browse p {
+    padding:0px;
+}
